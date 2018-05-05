@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+header{
+    background-color: #014769;
+    height: 75px;
+    width: 100%;
+}
+a{
+    text-decoration: none; 
+    font-family: 'lato', sans-serif;
+}
+header a{
+    padding: 20px 25px 25px 25px;
+    margin-top: 30px;
+    color: #f5f5f5;
+    font-family: 'lato', sans-serif;
+    font-size: 19px;
+}
+li{
+   display: inline; 
+/*    float: left;*/
+    
+}
+header nav{
+   float: right;
+    margin-right: 80px;
+    margin-top: 28px;
+}
+header a:hover{
+    color: #d1ecff;
+}
+#logo{
+    background: url(../img/MisoLogo.png) no-repeat center;
+    float: left;
+    height: 50px;
+    width: 50px;
+    padding-top: 0px;
+    margin-top: 0;
+    margin-left: 30px;
+}
+.background{
+    background: url(../img/capitol.png)no-repeat center;
+    height: 600px;
+    
+}
+#container2{
+    width: 85%;
+    margin: auto;
+    text-align: center;
+}
+h1{
+    font-family: 'lato', sans-serif;
+    text-transform: uppercase;
+    font-size: 55px;
+    text-align: center;
+    color: white;
+    font-weight: 100;
+    padding-top: 200px;
+}
+p{
+    margin-top: 10px;
+    color: #9b6767;
+    font-size: 30px;
+    font-family: 'lato', sans-serif;
+}
+.button{
+   margin-top: 24px; 
+}
+.button1{
+    border: 1px solid white;
+    border-radius: 7px;
+    text-align: center;
+    font-family: 'lato', sans-serif;
+    padding: 8px;
+    background: white;
+    color: black;
+    margin-left: 36.5%;
+    font-size: 15px;
+    font-weight: 550;
+}
+.button2{
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 7px;
+    text-align: center;
+    font-family: 'lato', sans-serif;
+    padding: 8px;
+    color: white;
+    margin-left: 30px;
+    font-size: 15px;
+    font-weight: 550;
+    
+}
+#button1:hover{
+    background: black;
+}
+.IT{
+    width: 100%;
+    height: 86px;
+    background: white;
+    color: #676262;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 20px;
+    overflow: hidden;
+}
+.box{
+    width: 33.33333%;
+    float: left;
+    text-align: center;
+    color: #3e3e3e;
+}
+.box h2{
+    margin-top: 12px;
+}
+.box p{
+    font-size: 15px;
+    color: #5c5959;
+}
+.threebtn{
+    margin-top: 10px;
+    text-align: center;
+    padding-top: 16px;
+}
+.threebtn a{
+    color: white;
+    padding: 10px;
+    background: #1099d5;
+    font-size: 13px;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
