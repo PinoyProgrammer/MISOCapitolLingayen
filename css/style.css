@@ -3,163 +3,112 @@
     padding: 0;
     border: 0;
 }
+.container{
+    overflow: hidden;
+    width: 80%;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+header a{
+    font-size: 19px;
+    font-weight: 500;
+    color: white;
+    font-family: sans-serif;
+}
 header{
-    background-color: #014769;
+    background-color: #004e9d;
     height: 75px;
     width: 100%;
 }
-a{
-    text-decoration: none; 
-    font-family: 'lato', sans-serif;
-}
-header a{
-    padding: 20px 25px 25px 25px;
-    margin-top: 30px;
-    color: #f5f5f5;
-    font-family: 'lato', sans-serif;
-    font-size: 19px;
-}
-li{
-   display: inline; 
-/*    float: left;*/
-    
+header li{
+    float: left;
+    display: inline;
+    padding: 27px 35px 20px 20px;
 }
 header nav{
-   float: right;
-    margin-right: 80px;
-    margin-top: 28px;
-}
-header a:hover{
-    color: #d1ecff;
+    float: right;
+    margin-right: 70px;
 }
 #logo{
-    background: url(../img/MisoLogo.png) no-repeat center;
     float: left;
-    height: 50px;
-    width: 50px;
-    padding-top: 0px;
-    margin-top: 0;
-    margin-left: 30px;
+    position: absolute;
+    top: 2px;
+    left: 30px;
 }
-.background{
-    background: url(../img/capitol.png)no-repeat center;
+header a:hover{
+    color: #c4bde2;
+}
+/* end of header*/
+.second{
+    background-image: url(../img/capitol.png);
+    background-size: cover;
     height: 600px;
-    
-}
-#container2{
-    width: 85%;
-    margin: auto;
-    text-align: center;
-}
-h1{
-    font-family: 'lato', sans-serif;
-    text-transform: uppercase;
-    font-size: 55px;
-    text-align: center;
     color: white;
-    font-weight: 100;
-    padding-top: 200px;
+    text-align: center;
 }
-p{
-    margin-top: 10px;
-    color: #9b6767;
-    font-size: 30px;
-    font-family: 'lato', sans-serif;
+.second h1 {
+    margin-top: 200px;
+    font-size: 50px;
 }
 .button{
-   margin-top: 24px; 
+    margin-top: 25px;
 }
-.button1{
+.button a{
+    color: wheat;
     border: 1px solid white;
-    border-radius: 7px;
-    text-align: center;
-    font-family: 'lato', sans-serif;
     padding: 8px;
-    background: white;
+    border-radius: 10px;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+#button1{
+    margin-right: 20px;
+    background-color: rgb(255, 255, 255);
     color: black;
-    margin-left: 36.5%;
-    font-size: 15px;
-    font-weight: 550;
-}
-.button2{
-    text-align: center;
-    border: 1px solid white;
-    border-radius: 7px;
-    text-align: center;
-    font-family: 'lato', sans-serif;
-    padding: 8px;
-    color: white;
-    margin-left: 30px;
-    font-size: 15px;
-    font-weight: 550;
-    
 }
 #button1:hover{
-    background: black;
+    background-color: #222222;
+    color: #f5f5f5;
 }
-.IT{
-    width: 100%;
-    height: 86px;
-    background: white;
-    color: #676262;
-    text-align: center;
-    margin-top: 40px;
-    font-size: 20px;
-    overflow: hidden;
+#button2:hover{
+    color: #f5f5f5;
+    background-color: rgb(34, 90, 114);
+}
+.third{
+    text-align: center; 
+    padding: 40px 40px;
+    color: #404040;
 }
 .box{
     width: 33.33333%;
+    display: inline;
     float: left;
     text-align: center;
-    color: #3e3e3e;
-}
-.box h2{
-    margin-top: 12px;
-}
-.box p{
-    font-size: 15px;
-    color: #5c5959;
+    margin: auto;
 }
 .threebtn{
-    margin-top: 10px;
-    text-align: center;
-    padding-top: 16px;
+    clear: both;
+    margin-top: 20px;
 }
 .threebtn a{
-    color: white;
+    border: 1px solid #1097d3; 
     padding: 10px;
-    background: #1099d5;
-    font-size: 13px;
-    border-radius: 5px;
-}
-footer{
-    clear: both;
+    border-radius: 10px;
+    color: white;
+    background-color: #1097d3;
+    font-size: 12px;
     text-align: center;
-    margin-top: 240px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+footer div{
+    clear: both;
+    margin-top: 230px;
+    text-align: center;
+}
 
 
 
